@@ -5,7 +5,7 @@ A responsive to-do app built with React and Tailwind CSS. Tasks are organised by
 **Live app:** `https://<your-site>.netlify.app`
 **Backend repo:** `<link to backend repo>`
 **Live API:** `https://<your-service>.onrender.com`
-**Design reference:** [Figma](https://www.figma.com/design/mz2PJoTwa5DxYrdrFPem3f/To-Do-List-Mobileapp)
+**Design reference:** [Figma](https://www.figma.com/design/mz2PJoTwa5DxYrdrFPem3f/To-Do-List-Mobile-app?node-id=0-1)
 
 > The API runs on a free Render instance that sleeps when idle. If the app shows an error or loads slowly at first, wait about 30 seconds and reload.
 
@@ -65,7 +65,7 @@ The app runs on `http://localhost:5173`.
 
 | Variable | Description | Example |
 |---|---|---|
-| `VITE_API_URL` | Base URL of the backend, with no trailing slash | `http://localhost:5000` |
+| `VITE_API_URL` | Base URL of the backend, with no trailing slash | `https://digiaccel-backend-351n.onrender.com` |
 
 Vite reads `VITE_` variables at build time. After changing one, restart the dev server or redeploy. The backend's `CLIENT_URL` must match the address you open the app on, otherwise the browser blocks requests (CORS).
 
