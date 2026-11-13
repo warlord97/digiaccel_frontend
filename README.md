@@ -9,12 +9,6 @@ A responsive to-do app built with React and Tailwind CSS. Tasks are organised by
 
 > The API runs on a free Render instance that sleeps when idle. If the app shows an error or loads slowly at first, wait about 30 seconds and reload.
 
-## Screenshots
-
-| Home | Add task | Search |
-|---|---|---|
-| `<screenshot>` | `<screenshot>` | `<screenshot>` |
-
 ## Features
 
 - Weekly cards (Monday to Sunday) showing open and completed task counts. Tap a card to expand its tasks
